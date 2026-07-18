@@ -1,8 +1,21 @@
 # Hermes Agent — Advanced Railway Template
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-4)
+
 Production-ready Railway deployment template for **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** (pinned to `v2026.7.7.2`).
 
 One-click deploy a full Hermes Agent instance with a polished admin UI, reverse-proxied native dashboard, metrics, skills management, MCP editor, cron viewer, workspace browser, pairing controls, backup/restore, and more.
+
+## Deploy
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hermes-agent-4)
+
+1. Click the button above
+2. Set `ADMIN_PASSWORD` (or let Railway generate one)
+3. Deploy → open the generated public URL
+4. Log in with username `admin` and your `ADMIN_PASSWORD`
+
+The template attaches a persistent volume at `/data` automatically.
 
 ## Features
 
